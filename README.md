@@ -12,7 +12,7 @@
 ```bash
   sudo docker-compose up 
 ```
--Se connecter au container exécutant spark-master
+- Se connecter au container exécutant spark-master
 ```bash
   sudo docker exec -it spark-master bash 
 ```

@@ -3,10 +3,10 @@
 
 - Clone project 
 ```bash
-  git clone https://github.com/meherfadhleoui/tpBigData
+  git clone https://github.com/meherfadhleoui/big
 ```
 
-- Copy access.log file to tpBigData folder
+- Copy access.log file to big folder
 
 - Lancer le cluster
 ```bash

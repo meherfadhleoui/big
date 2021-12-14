@@ -27,8 +27,8 @@ if __name__ == "__main__":
     for key, value in sorted(python_lines.countByValue().items(), key=lambda item: item[1], reverse=True):
         # print(style.MAGENTA + key , style.GREEN + " : " ,style.YELLOW + str(value) )
 
-        cprint(key, 'magenta', attrs=['bold'], end=' ')
-        cprint(" : ", 'green', attrs=['bold'], end=' ')
+        cprint(key, 'green', attrs=['bold'], end=' ')
+        cprint(" : ", 'blue', attrs=['bold'], end=' ')
         cprint(value, 'yellow', attrs=['bold'], end=' ')
         print('\n ')
 

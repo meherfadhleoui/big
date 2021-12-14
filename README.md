@@ -10,7 +10,7 @@
 
 - Lancer le cluster
 ```bash
-  docker-compose up 
+  sudo docker-compose up 
 ```
 -Se connecter au container exécutant spark-master
 ```bash

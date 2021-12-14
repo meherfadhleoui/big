@@ -3,27 +3,31 @@
 
 - Clone project 
 ```bash
-  git clone https://github.com/meherfadhleoui/bigdata
+  git clone https://github.com/meherfadhleoui/tpBigData
 ```
 
-- Copy access.log file to bigdata folder
+- Copy access.log file to tpBigData folder
 
-- Build Image
+- Lancer le cluster
 ```bash
-  docker build -t bigdata . 
+  docker-compose up 
+```
+-Se connecter au container exécutant spark-master
+```bash
+  sudo docker exec -it spark-master bash 
 ```
 
 - Get top 10 visited websites 
 ```bash
-  docker run -it bigdata 
+  ./script.sh 
 ```
 
 - Get top N visited websites
 ```bash
-  docker run -it bigdata N 
+    ./script.sh N 
 ```
 - Example 
 ```bash
-  docker run -it bigdata 20 
+  ./script.sh 5 
 ```
   
